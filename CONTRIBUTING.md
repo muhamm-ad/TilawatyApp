@@ -8,7 +8,7 @@ Thank you for helping improve Tilawaty. This repository is an **issues-only** pu
 - Feature requests (ideas need maintainer confirmation before backlog)
 - Translation / Quran content corrections
 - Documentation improvements for **this** repository (README, templates, guides)
-- Discussion in [Discussions](https://github.com/muhamm-ad/Tilawaty-Issues/discussions)
+- Discussion in [Discussions](https://github.com/muhamm-ad/TilawatyApp/discussions)
 
 ## What we do not accept here
 
@@ -18,7 +18,7 @@ Thank you for helping improve Tilawaty. This repository is an **issues-only** pu
 
 ## Filing a good issue
 
-1. **Search first** — check existing [issues](https://github.com/muhamm-ad/Tilawaty-Issues/issues) and [discussions](https://github.com/muhamm-ad/Tilawaty-Issues/discussions) to avoid duplicates.
+1. **Search first** — check existing [issues](https://github.com/muhamm-ad/TilawatyApp/issues) and [discussions](https://github.com/muhamm-ad/TilawatyApp/discussions) to avoid duplicates.
 2. **Use a template** — blank issues are disabled; pick the matching form.
 3. **One concern per issue** — separate bugs and features into their own issues.
 4. **Title style** — use Conventional Commits style in English, with a short area scope when possible:

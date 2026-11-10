@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Feature ideas need **maintainer confirmation** before they go on the backlog. Filing this form does not guarantee the feature will be built. For open-ended brainstorming, prefer [Discussions](https://github.com/muhamm-ad/Tilawaty-Issues/discussions).
+        Feature ideas need **maintainer confirmation** before they go on the backlog. Filing this form does not guarantee the feature will be built. For open-ended brainstorming, prefer [Discussions](https://github.com/muhamm-ad/TilawatyApp/discussions).
   - type: textarea
     id: problem
     attributes:

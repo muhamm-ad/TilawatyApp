@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement via GitHub:
-open a [private security advisory](https://github.com/muhamm-ad/Tilawaty-Issues/security/advisories/new)
+open a [private security advisory](https://github.com/muhamm-ad/TilawatyApp/security/advisories/new)
 (preferred for sensitive reports) or contact the maintainer [@muhamm-ad](https://github.com/muhamm-ad)
 through GitHub. There is no public contact email yet.
 

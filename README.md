@@ -6,7 +6,7 @@
 
 ## How to report a bug
 
-1. Open a [new bug report](https://github.com/muhamm-ad/Tilawaty-Issues/issues/new?template=bug_report.yml).
+1. Open a [new bug report](https://github.com/muhamm-ad/TilawatyApp/issues/new?template=bug_report.yml).
 2. Fill in the form (app version, platform, steps to reproduce, expected vs actual, screenshots if useful).
 3. Submit. Maintainers will triage and may ask for more detail.
 
@@ -14,21 +14,21 @@
 
 ## How to request a feature
 
-1. Open a [feature request](https://github.com/muhamm-ad/Tilawaty-Issues/issues/new?template=feature_request.yml).
+1. Open a [feature request](https://github.com/muhamm-ad/TilawatyApp/issues/new?template=feature_request.yml).
 2. Describe the problem you want solved and your proposed idea.
 3. Feature ideas need **maintainer confirmation** before they go on the backlog. Filing a request does not guarantee it will be built.
 
 ## Quran text or translation errors
 
-Use the [translation / content report](https://github.com/muhamm-ad/Tilawaty-Issues/issues/new?template=translation_or_content.yml) for mistakes in Quran text display or in the English (Pickthall) / French (Hamidullah) translations.
+Use the [translation / content report](https://github.com/muhamm-ad/TilawatyApp/issues/new?template=translation_or_content.yml) for mistakes in Quran text display or in the English (Pickthall) / French (Hamidullah) translations.
 
 ## Questions and ideas
 
-For general questions or open-ended discussion, use [Discussions](https://github.com/muhamm-ad/Tilawaty-Issues/discussions) instead of issues.
+For general questions or open-ended discussion, use [Discussions](https://github.com/muhamm-ad/TilawatyApp/discussions) instead of issues.
 
 ## Security
 
-If you believe you found a security vulnerability, **do not** open a public issue. Report it privately via [GitHub Security Advisories](https://github.com/muhamm-ad/Tilawaty-Issues/security/advisories/new). See [SECURITY.md](SECURITY.md).
+If you believe you found a security vulnerability, **do not** open a public issue. Report it privately via [GitHub Security Advisories](https://github.com/muhamm-ad/TilawatyApp/security/advisories/new). See [SECURITY.md](SECURITY.md).
 
 ## What happens after you file an issue
 
@@ -58,7 +58,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for title conventions and tips for good r
 
 ### Note (FR)
 
-Ce dépôt est le **suivi public des problèmes** de Tilawaty (lecteur du Coran avec suivi de progression). Le code source est privé. Pour un bug, une idée ou une erreur de traduction, utilisez les modèles d’issue ci-dessus. Pour une question, préférez [Discussions](https://github.com/muhamm-ad/Tilawaty-Issues/discussions). Les vulnérabilités se signalent en privé via les [Security Advisories](https://github.com/muhamm-ad/Tilawaty-Issues/security/advisories/new).
+Ce dépôt est le **suivi public des problèmes** de Tilawaty (lecteur du Coran avec suivi de progression). Le code source est privé. Pour un bug, une idée ou une erreur de traduction, utilisez les modèles d’issue ci-dessus. Pour une question, préférez [Discussions](https://github.com/muhamm-ad/TilawatyApp/discussions). Les vulnérabilités se signalent en privé via les [Security Advisories](https://github.com/muhamm-ad/TilawatyApp/security/advisories/new).
 
 ## Maintainer
 
