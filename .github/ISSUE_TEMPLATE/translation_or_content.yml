@@ -1,0 +1,72 @@
+name: Translation or Quran content
+description: Report an error in Quran text display or in EN/FR translations.
+title: "fix(translations): "
+labels: ["needs-triage", "area: translations"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for mistakes in displayed Quran text or in the **English (Pickthall)** / **French (Hamidullah)** translations. For UI string typos in menus/settings, prefer a [bug report](bug_report.yml) with area `i18n` or `ui`.
+  - type: dropdown
+    id: content-kind
+    attributes:
+      label: What is wrong?
+      options:
+        - Quran Arabic text display
+        - English translation (Pickthall)
+        - French translation (Hamidullah)
+        - Both / unsure
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Surah name or number, ayah number, and any other locator (Juz'/Hizb if useful).
+      placeholder: "Surah 2 (Al-Baqarah), ayah 255"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text (as shown in the app)
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested correction
+      description: If you know the correct wording, write it here. Cite a source if possible.
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Web
+        - Multiple / unsure
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional but helpful.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+    validations:
+      required: false

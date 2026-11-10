@@ -1,0 +1,157 @@
+name: Bug report
+description: Something is not working as expected in Tilawaty.
+title: "fix(): "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Fill in as much as you can. **Do not** attach personal notes or a full backup unless you choose to and have removed private notes. Never include personal data.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Found in Settings, or on the store listing (e.g. 1.0.0).
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Web
+        - Multiple / unsure
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS / browser version
+      description: e.g. Android 14, iOS 17.5, or Chrome 130 on macOS.
+      placeholder: "Android 14"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Phone or tablet model if known (optional for web).
+      placeholder: "Pixel 8 / iPhone 15"
+    validations:
+      required: false
+  - type: dropdown
+    id: ui-language
+    attributes:
+      label: UI language
+      options:
+        - English
+        - French
+        - Unsure
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Light
+        - Dark
+        - System / default
+        - Unsure
+    validations:
+      required: false
+  - type: dropdown
+    id: tracking-mode
+    attributes:
+      label: Tracking mode
+      description: Progress tracking unit you were using, if relevant.
+      options:
+        - Rubu
+        - Nissf
+        - Hizb
+        - Juz'
+        - Surah
+        - Not applicable / unsure
+    validations:
+      required: false
+  - type: dropdown
+    id: translation
+    attributes:
+      label: Translation
+      options:
+        - Off
+        - English (Pickthall)
+        - French (Hamidullah)
+        - Unsure
+    validations:
+      required: false
+  - type: input
+    id: reciter
+    attributes:
+      label: Reciter (if audio-related)
+      description: Leave blank if the bug is not about audio.
+      placeholder: "Reciter name"
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the app is affected?
+      options:
+        - reading
+        - progress
+        - browse
+        - bookmarks
+        - audio
+        - translations
+        - reminders
+        - backup
+        - settings
+        - i18n
+        - ui
+        - a11y
+        - performance
+        - other / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps that reliably trigger the bug.
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / recordings
+      description: Drag and drop images or describe what you see. Optional.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Anything else that might help (frequency, recent updates, etc.).
+    validations:
+      required: false
