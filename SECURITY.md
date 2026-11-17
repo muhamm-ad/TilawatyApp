@@ -4,7 +4,7 @@
 
 | Version | Supported |
 |---------|-----------|
-| 1.0.x   | Yes       |
+| 1.X.X   | Yes       |
 
 Older versions are not supported with security updates.
 

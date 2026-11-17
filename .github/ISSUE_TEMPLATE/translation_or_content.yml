@@ -6,15 +6,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form for mistakes in displayed Quran text or in the **English (Pickthall)** / **French (Hamidullah)** translations. For UI string typos in menus/settings, prefer a [bug report](bug_report.yml) with area `i18n` or `ui`.
+        Use this form for mistakes in displayed Quran text or in the Quran translations. For UI string typos in menus/settings, prefer a [bug report](bug_report.yml) with area `i18n` or `ui`.
   - type: dropdown
     id: content-kind
     attributes:
       label: What is wrong?
       options:
         - Quran Arabic text display
-        - English translation (Pickthall)
-        - French translation (Hamidullah)
+        - English translation
+        - French translation
         - Both / unsure
     validations:
       required: true
@@ -31,14 +31,14 @@ body:
     attributes:
       label: Current text (as shown in the app)
     validations:
-      required: true
+      required: false
   - type: textarea
     id: suggested
     attributes:
       label: Suggested correction
       description: If you know the correct wording, write it here. Cite a source if possible.
     validations:
-      required: true
+      required: false
   - type: input
     id: app-version
     attributes:
@@ -53,7 +53,6 @@ body:
       options:
         - Android
         - iOS
-        - Web
         - Multiple / unsure
     validations:
       required: false

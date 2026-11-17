@@ -15,4 +15,3 @@ Pull requests here should improve **this tracker** (docs and templates only).
 App source code lives in a private repository; do **not** submit app code patches here.
 
 - [ ] I have not included personal data or secrets
-- [ ] Text is in English
