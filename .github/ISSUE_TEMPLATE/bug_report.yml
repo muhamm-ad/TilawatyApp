@@ -28,8 +28,8 @@ body:
   - type: input
     id: os-version
     attributes:
-      label: OS / browser version
-      description: e.g. Android 14, iOS 17.5, or Chrome 130 on macOS.
+      label: OS version
+      description: e.g. Android 14 or iOS 17.5.
       placeholder: "Android 14"
     validations:
       required: true
